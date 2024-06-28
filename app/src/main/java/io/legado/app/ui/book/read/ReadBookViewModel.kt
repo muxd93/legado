@@ -116,6 +116,9 @@ class ReadBookViewModel(application: Application) : BaseViewModel(application) {
             ReadBook.loadOrUpContent()
             checkLocalBookFileExist(book)
         } else {
+            if (ReadBook.durChapterIndex > ReadBook.chapterSize - 1) {
+                ReadBook.durChapterIndex = ReadBook.chapterSize - 1
+            }
             ReadBook.loadContent(resetPageOffset = false)
             checkLocalBookFileExist(book)
         }
@@ -535,7 +538,7 @@ class ReadBookViewModel(application: Application) : BaseViewModel(application) {
 
     override fun onCleared() {
         super.onCleared()
-        if (BaseReadAloudService.pause) {
+        if (BaseReadAloudService.isRun && BaseReadAloudService.pause) {
             ReadAloud.stop(context)
         }
     }
