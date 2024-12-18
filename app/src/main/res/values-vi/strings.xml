@@ -1,6 +1,7 @@
 <resources>
 <!--App-->
     <string name="app_name">Legado</string>
+    <string name="app_name_a">Legado·A</string>
     <string name="receiving_shared_label">Legado·tìm kiếm</string>
     <string name="tip_perm_request_storage">Legado cần quyền truy cập bộ nhớ để tìm và đọc sách. vui lòng vào &amp;quot;Cài đặt ứng dụng&amp;quot; để cho phép &amp;quot;Quyền lưu trữ&amp;quot;.</string>
 
@@ -28,6 +29,7 @@
     <string name="draw">Cảnh báo</string>
     <string name="edit">Sửa đổi</string>
     <string name="delete">Xóa</string>
+    <string name="delete_select_group">Xóa nhóm hiện tại</string>
     <string name="delete_all">Xóa tất cả</string>
     <string name="custom_export_section">Chương xuất tùy chỉnh của epub</string>
     <string name="replace">Thay thế</string>
@@ -909,6 +911,7 @@ Còn </string>
     <string name="double_page_horizontal">Trang kép dạng máy tính bảng/ngang</string>
     <string name="open_in_browser">mở trong trình duyệt</string>
     <string name="copy_url">sao chép url</string>
+    <string name="full_screen">Toàn màn hình</string>
     <string name="open_fun">mở chức năng</string>
     <string name="use_browser_open">Mở bằng trình duyệt bên ngoài?</string>
     <string name="see">xem</string>
