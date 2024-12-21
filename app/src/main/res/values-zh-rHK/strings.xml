@@ -1,6 +1,7 @@
 <resources>
     <!--App-->
     <string name="app_name">閲讀</string>
+    <string name="app_name_a">閲讀·A</string>
     <string name="receiving_shared_label">閲讀·搜尋</string>
     <string name="tip_perm_request_storage">閲讀需要訪問存儲卡權限，請前往「設定」—「應用程式權限」—開啟所需要的權限</string>
 
@@ -27,6 +28,7 @@
     <string name="draw">提醒</string>
     <string name="edit">編輯</string>
     <string name="delete">刪除</string>
+    <string name="delete_select_group">刪除當前分組</string>
     <string name="replace">替換</string>
     <string name="replace_purify">替換淨化</string>
     <string name="replace_purify_desc">配置替換淨化規則</string>
@@ -764,6 +766,7 @@
     <string name="donate_summary">您嘅支援喺我更新嘅動力</string>
     <string name="about_summary">公眾號[开源阅读软件]</string>
     <string name="read_record">閲讀記錄</string>
+    <string name="del_read_record">刪除閲讀記錄</string>
     <string name="read_record_summary">閱讀時間記錄</string>
     <string name="local_tts">本地TTS</string>
     <string name="thread_count">線程數</string>
@@ -909,6 +912,7 @@
     <string name="double_page_horizontal">平板/橫屏雙頁</string>
     <string name="open_in_browser">瀏覽器打開</string>
     <string name="copy_url">複製url</string>
+    <string name="full_screen">全屏</string>
     <string name="open_fun">打開方式</string>
     <string name="use_browser_open">是否使用外部瀏覽器打開?</string>
     <string name="see">查看</string>
@@ -1171,4 +1175,5 @@
     <string name="read_aloud_read_phone_state_permission_rationale">阅读需要读取手机状态实现来电期间暂停朗读功能</string>
     <string name="read_aloud_by_media_button_title">耳机按键启动朗读</string>
     <string name="read_aloud_by_media_button_summary">通过耳机按键来启动朗读</string>
+    <string name="show_same_source">显示重复书源</string>
 </resources>
